@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0077b6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#container > * {
+  margin: 2vw;
+}
+form {
+  text-align: center;
+}
+input {
+  margin-bottom: 2vw;
+  padding: 8px;
+  text-align: center;
+  border-radius: 15px;
+}
+#input--name {
+  width: 150px;
+  background-color: #caf0f8;
+}
+#btn--send {
+  transition: 0.3s ease-in-out;
+  background-color: #0096c7;
+}
+#btn--send:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
